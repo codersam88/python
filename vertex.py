@@ -8,10 +8,12 @@ class Vertex:
 		self.dist = dist
 		self.mom = mom
 		self.adj = []
-		
-	def  __str__(self):
-		return "vertex"
-		
+			
 	def  __repr__(self):
-		return "vertex"
+	
+		namePlusAdj = str(self.name)
+		for i in self.adj:
+			namePlusAdj+=' '+str(i.name)+' '+str(i.dist)
+			
+		return str(len(self.adj))
 		
