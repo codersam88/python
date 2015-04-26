@@ -46,5 +46,5 @@ def makeAdjListW():
 		
 	return wgraph
 	
-adjlW = makeAdjListW()
-print(adjlW)
+#adjlW = makeAdjListW()
+#print(adjlW)
